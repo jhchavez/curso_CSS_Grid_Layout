@@ -31,7 +31,6 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
-    /* border: 2px solid red; */
 }
 .form {
     grid-area: form;
@@ -39,7 +38,6 @@ body {
     background: rgba(255, 255, 255, .9);
     padding: 1.5em;
     border-radius: 10px;
-    /* border: 2px solid red; */
 }
 .form input {
     width: 100%;
@@ -49,13 +47,11 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    /* border: 2px solid red; */
 }
 .form p {
     font-size: 20px;
     color: #3a3b3f;
     margin-bottom: 1em;
-    /* border: 2px solid red; */
 }
 .form button {
     background: #98ca3f;
@@ -66,7 +62,6 @@ body {
     font-size: 16px;
     border-bottom: 5px solid #6d932b;
     display: inline-block;
-    /* border: 2px solid red; */
 }
 .countdown {
     grid-area: countdown;
@@ -75,24 +70,20 @@ body {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
-    /* border: 2px solid red; */
 }
 .countdown span {
     font-size: 33px;
-    /* border: 2px solid red; */
 }
 .countdown span:after {
     content: ":";
     display: inline-block;
     margin: 0 5px;
-    /* border: 2px solid red; */
 }
 .countdown span:last-child::after {
     display: none;
 }
 p {
     margin: 0;
-    /* border: 2px solid red; */
 }
 .description {
     grid-area: description;
