@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background: rgb(2, 2, 82);
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 100px); /*auto-fill= crea tantas como sea posible. auto-fit = se ajustan */
+    /* grid-template-columns: repeat(3, minmax(100px, 200px)); (min-content, max-content = adacta el la cuadricula al contenido) */
+}
+
+[class^="item"] {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    background: yellow;
+}
+
+.item2 {
+    background: green;
+}
+
+.item3 {
+    background: hotpink;
+}

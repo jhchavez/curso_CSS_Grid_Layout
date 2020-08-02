@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 600px;
+    width: 800px;
+    border: 5px solid #000;
+    margin-left: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    /* justify-items: stretch;
+    align-items: center; */
+}
+
+[class^="item"] {
+    color: #fff;
+}
+
+.item1 {
+    background: orange;
+    /* order: 1; Cambia el orden de los grid */
+    justify-self: center; /*se centra el elemento asi mismo*/
+    align-self: center;
+}
+
+.item2 {
+    background: blue;
+}
+
+.item3 {
+    background: chartreuse;
+}
+
+.item4 {
+    background: darkcyan;
+}

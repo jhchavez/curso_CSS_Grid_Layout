@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 600px;
+    width: 800px;
+    background: rgb(212, 236, 236);
+    grid: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: dense; /*dense rellena los espacios vacios*/
+    grid-auto-columns: 200px;
+    grid-auto-rows: 200px;
+}
+
+[class^="item"] {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 2px rgb(10, 10, 179);
+    border-radius: 20px;
+}
+
+.item1, .item8 {
+    background: chocolate;
+}
+
+.item2, .item7 {
+    background: crimson;
+
+}
+.item3, .item6{
+    background: cyan;
+}
+
+.item4, .item5 {
+    background: darkgreen;
+}

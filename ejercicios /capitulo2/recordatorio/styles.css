@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    width: 500px;
+    background: rgb(175, 241, 238);
+    display: grid;
+    grid: repeat(4, 1fr) / repeat(3, 1fr);
+    grid-gap: 15px;
+    font-size: 300;
+    text-align: center;
+    padding-top: .5em;
+}
+.form {
+    height: 150px;
+    width: 500px;
+    display: grid;
+    grid-area: form;
+    text-align: center;
+    background: rgba(253, 51, 236, 0.9);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbe2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.form p {
+    font-size: 20px;
+    color: #3a3b3f;
+    margin-bottom: 1em;
+}
+.form button {
+    background: #3faaca;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 5px solid #4c2985;
+    display: inline-block;
+}
+
+[class^="item"] {
+    background: white;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.item1 {
+    background: yellow;
+}
+
+.item2 {
+    background: blue;
+}
+
+.item3 {
+    background: chartreuse;
+}
+
+.item4 {
+    background: violet;
+}
+
+.item5 {
+    background: lightblue;
+}
+
+.item6 {
+    background: orange;
+}
+
+.item7 {
+    background: powderblue;
+}
+
+.item8 {
+    background: sienna;
+}
